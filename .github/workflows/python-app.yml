@@ -37,4 +37,8 @@ jobs:
     - name: Run day1 part1
       run: |
         cd "day1 - historian hysteria"
+        python part1_mysolution1.py
+    - name: Run day1 part2
+      run: |
+        cd "day1 - historian hysteria"
         python part1_mysolution2.py
