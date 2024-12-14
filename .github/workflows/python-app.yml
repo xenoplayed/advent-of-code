@@ -35,6 +35,6 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run day1 part1
-      run: python part1_mysolution1.py
+      run: python ./AdventOfCode 2024/day1 - historian hysteria/part1_mysolution1.py
     - name: Run day1 part2
-      run: python part2_mysolution1.py
+      run: python ./AdventOfCode 2024/day1 - historian hysteria/part2_mysolution1.py
